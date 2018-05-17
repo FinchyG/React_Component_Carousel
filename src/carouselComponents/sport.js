@@ -3,7 +3,12 @@ import React from 'react';
 export const Sport = (props) => {
 
     return (
-        <img className="carouselImage" src={require('../images/sport.png')} alt="sport icon" />
+        <div>
+            <LeftChevron />
+            <h4>Sport</h4>
+            <img className="carouselImage" src={require('../images/sport.png')} alt="sport icon" />
+            <RightChevron />
+        </div>
     )
-    
+        
 }

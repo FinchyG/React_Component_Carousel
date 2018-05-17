@@ -46,9 +46,7 @@ export class CarouselComponent extends React.Component {
                 <div className="wideDiv">
 
                     <div className="narrowDiv">
-                    <LeftChevron onClick={this.leftImage} />
-                    <ComponentCarousel currentImage={this.state.currentImage} />
-                    <RightChevron onClick={this.rightImage} />
+                    <ComponentCarousel currentImage={this.state.currentImage} onClickL={this.state.leftImage} onClickR={this.state.rightImage} />
                     </div>
                     
                 </div>
