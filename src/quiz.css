@@ -23,12 +23,14 @@
   position: relative;
   bottom  : 4em;
   margin  : 1.5em;
+  cursor: pointer;
 }
 
 .rightChevron {
   position: relative;
   bottom  : 4em;
   margin  : 1.5em;
+  cursor: pointer;
 }
 
 h1 {
