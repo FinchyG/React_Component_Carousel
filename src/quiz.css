@@ -9,46 +9,34 @@
 }
 
 .narrowDiv {
-  width  : 50%;
-  margin : auto;
+  width: 50%;
+  margin: auto;
   padding: 1em 0;
 }
 
 .carouselImage {
-  height  : 15em;
-  width   : 60%;
+  height: 15em;
+  width : 15em;
 }
 
 .leftChevron {
   position: relative;
-  float   : left;
   bottom  : 4em;
   margin  : 1.5em;
 }
 
 .rightChevron {
   position: relative;
-  float   : right;
   bottom  : 4em;
   margin  : 1.5em;
 }
 
 h1 {
-  font-family: roman_sdregular;
   font-size: 5em;
   font-weight: bold;
   text-shadow: .05em .05em #999999;
   text-align: center;
-}
-
-h4 {
-  font-family     : roman_sdregular;
-  font-size       : 1.5em;
-  text-decoration : underline;
-  text-align      : center;
-  text-shadow     : .05em .05em #999999;
-  display         : inline-block;
-  margin          : 1em;
+  font-family: roman_sdregular;
 }
 
 @font-face {

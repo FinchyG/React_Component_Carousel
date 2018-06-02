@@ -5,7 +5,7 @@ import { Entertainment } from './entertainment';
 import { ScienceAndNature } from './scienceAndNature';
 import { Geography } from './geography';
 import { History } from './history';
-import { FlagsQuizzes } from './flagsQuizzes';
+import { FlagsQuiz } from './flagsQuiz';
 
 export const ComponentCarousel = (props) => {
 
@@ -35,7 +35,7 @@ export const ComponentCarousel = (props) => {
         break;
 
         case 6:
-        return <FlagsQuizzes />;
+        return <FlagsQuiz />;
         break;
 
     }
